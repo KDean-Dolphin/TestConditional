@@ -1,0 +1,21 @@
+{
+  "name": "test_conditional",
+  "version": "1.0.0",
+  "description": "Test Conditional Types",
+  "type": "module",
+  "main": "dist/index.js",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Kevin Dean",
+    "email": "Kevin.Dean@datadevelopment.com",
+    "url": "https://www.linkedin.com/in/kdean"
+  },
+  "scripts": {
+    "build": "tsc src/test-conditional.ts --outDir dist --target esnext --moduleResolution nodenext --module nodenext",
+    "run": "tsx src/test-conditional.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
