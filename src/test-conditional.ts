@@ -7,7 +7,7 @@
  * @template T
  * Primitive type.
  */
-type TransformerInput<T extends string | number | bigint | boolean = number | bigint> =
+type TransformerInput<T extends string | number | bigint | boolean> =
     T | Iterable<T>;
 
 /**
